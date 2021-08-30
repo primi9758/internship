@@ -1,4 +1,5 @@
-public class LearnJava{
+import java.util.Arrays;
+public class week3{
     public static void main(String[] args){
         //1
         System.out.println("Ucim se programirati.");
@@ -12,7 +13,7 @@ public class LearnJava{
 
         //4
         int x, y;
-        //x in y sta števili, ki se ju vpisuje v input field, ampak sem ju že kar tukaj v program napisal, da mi je lažje
+        //x in y are numbers, that are received from input fields, but I have already written them in the program, because it is easier that way for me
         x = 220;
         y = 284;
         int sumx = 0;
@@ -40,5 +41,18 @@ public class LearnJava{
 
         //5
         int n;
+        n = 10; //n is normally given with an input field
+        int a = 1;
+        int b = 1;
+
+        System.out.println(a);
+        System.out.println(b);
+
+        for(int i = 0; i < n-2; i++){
+            int a1 = b;
+            b = b + a;
+            a = a1;
+        System.out.println(b);
+        }
     }
 }

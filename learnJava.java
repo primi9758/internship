@@ -1,4 +1,5 @@
-public class Week3{
+import java.util.Arrays;
+public class week3{
     public static void main(String[] args){
         //1
         System.out.println("Ucim se programirati.");
@@ -17,7 +18,6 @@ public class Week3{
         y = 284;
         int sumx = 0;
         int sumy = 0;
-
 
         for(int i = 1; i <= (int)Math.ceil(x/2); i++){
             if(x % i == 0){

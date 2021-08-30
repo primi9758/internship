@@ -12,6 +12,7 @@ public class LearnJava{
 
         //4
         int x, y;
+        //x in y sta števili, ki se ju vpisuje v input field, ampak sem ju že kar tukaj v program napisal, da mi je lažje
         x = 220;
         y = 284;
         int sumx = 0;
@@ -37,5 +38,7 @@ public class LearnJava{
             System.out.println("not friendly numbers");
         }
 
+        //5
+        int n;
     }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class naloga6 {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,10 +15,10 @@ public class naloga6 {
         numbers = new int[spaces + 1];
 
         for (int i = 0; i < spaces + 1; i++) {
-            numbers[i] = (int) sentence.next();
+            numbers[i] = (int) sc.nextInt();
         }
 
-        int min = 1000000;
+        int min = Integer.MAX_VALUE;
         for (int i = 0; i < spaces + 1; i++) {
             if (numbers[i] < min) {
                 min = numbers[i];

@@ -5,14 +5,10 @@ public class naloga6 {
         Scanner sc = new Scanner (System.in);
         int n = sc.nextInt();
 
-        int i = 0;
         int places = 0;
-        while (i < 1) {
+        while (n > 0) {
             n /= 10;
             places++;
-            if (n == 0) {
-                i++;
-            }
         }
 
         System.out.printf("This number has this many places: %d", places);

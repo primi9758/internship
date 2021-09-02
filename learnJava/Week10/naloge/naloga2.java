@@ -4,7 +4,7 @@ public class naloga2 {
     public static void main (String[] args) {
         Scanner sc1 = new Scanner (System.in);
         int M = sc1.nextInt();
-        int num = (int) Math.floor((Math.random() * M) + 1);
+        int num = (int) ((Math.random() * M) + 1);
         boolean guessed = false;
         
         System.out.printf("Guess the number between 1 and %d", M);

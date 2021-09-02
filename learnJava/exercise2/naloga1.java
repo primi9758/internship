@@ -8,7 +8,7 @@ public class naloga1 {
         if (n > 1) {
             System.out.print(2);
         }
-        for (int i = 2; i <= n; i += 2) {
+        for (int i = 3; i <= n; i += 2) {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
                     break;

@@ -10,7 +10,8 @@ public class naloga3 {
                 if (j <= i) {
                     continue;
                 }
-                System.out.print(i + ":" + j + "  ");
+                //System.out.print(i + ":" + j + "  ");
+                System.out.printf("%d:%d ", i, j);
             }
             System.out.println("");
         }
